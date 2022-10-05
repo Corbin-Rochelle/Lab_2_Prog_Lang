@@ -1,0 +1,34 @@
+Using the test.c file for input
+Next token: 25, lexeme: |your|
+Enter <sentence>
+  Enter <noun phrase> 1
+  Enter <adjective phrase> 1
+===> Accepted POSSESSIVE: |your| <===
+Next token: 21, lexeme: |timey-wimey|
+===> Accepted ADJECTIVE: |timey-wimey| <===
+Next token: 20, lexeme: |pony|
+  Exit <adjective phrase> 1
+===> Accepted NOUN: |pony| <===
+Next token: 23, lexeme: |awkwardly|
+  Exit <noun phrase> 1
+  Enter <verb phrase> 1
+===> Accepted ADVERB: |awkwardly| <===
+Next token: 22, lexeme: |mangled|
+    Enter <verb phrase> 2
+===> Accepted VERB: |mangled| <===
+Next token: 24, lexeme: |every|
+    Exit <verb phrase> 2
+  Exit <verb phrase> 1
+    Enter <noun phrase> 2
+    Enter <adjective phrase> 2
+===> Accepted ARTICLE: |every| <===
+Next token: 21, lexeme: |furious|
+===> Accepted ADJECTIVE: |furious| <===
+Next token: 20, lexeme: |time lord|
+    Exit <adjective phrase> 2
+===> Accepted NOUN: |time lord| <===
+Next token: 90, lexeme: |EOF|
+    Exit <noun phrase> 2
+Exit <sentence>
+
+=== MAROON! WHITE! Your parse was successful! ===
